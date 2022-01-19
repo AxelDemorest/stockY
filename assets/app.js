@@ -13,7 +13,6 @@ import './bootstrap';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Router from "./router";
 
-import Home from './pages/Home';
-
-ReactDOM.render(<Home />, document.getElementById('root'));
+ReactDOM.render(<Router />, document.getElementById('root'));
