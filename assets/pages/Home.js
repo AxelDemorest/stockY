@@ -2,10 +2,12 @@ import React from 'react';
 import "../styles/pages/home.css";
 import "../js/home"
 import Carousel from "../components/Carousel";
+import Header from "../components/Header";
 
 const Home = () => {
     return (
         <div className="home">
+            <Header />
             <Carousel />
             <div className="newsneakers" >
 

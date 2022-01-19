@@ -1,0 +1,31 @@
+.navigation {
+    height: 70px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header-left {
+    margin-left: 20px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right ul {
+    list-style-type:none;
+    padding:0;
+    margin: 0 20px 0 0;
+}
+
+.header-right li {
+    display: inline-block;
+    margin-right: 35px;
+    font-size: 18px;
+}
