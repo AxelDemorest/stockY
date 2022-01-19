@@ -1,0 +1,27 @@
+
+.sneakerscard{
+
+    width: 15%  ;
+    margin-left: 1.5% !important;
+    margin-top: 5% !important;
+}
+
+.newsneakers {
+
+    display: inline-flex !important ;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.card-bodyy {
+    margin-top: -5% !important;
+    background-color: #f4f3f1 ;
+}
+
+.card-link {
+    color: black !important;
+    text-decoration: none;
+    font-size: 20px !important;
+    margin-left: 40% !important;
+
+}
