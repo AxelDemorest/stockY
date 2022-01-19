@@ -1,0 +1,39 @@
+
+.sneakers360{
+    display: flex;
+    flex-direction: row;
+}
+
+.slide{
+    height: 100%;
+    width: 100%;
+}
+
+.slidesauto{
+    display: flex;
+    flex-direction:column ;
+}
+
+.descri{
+    display: flex;
+    flex-direction: column;
+}
+.descri2{
+    background-color: whitesmoke;
+    height: 150px;
+    width: 400px;
+    border-radius: 2px;
+    border-left:  10px solid black;
+    border-right: 10px solid black;
+    border-top: 10px solid red;
+    border-bottom: 10px solid red;
+    color: black;
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+}
+
+.fade:not(.show) {
+    opacity: 1!important; ;
+}
+

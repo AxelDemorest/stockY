@@ -13,6 +13,11 @@ import './bootstrap';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Router from "./router";
 
-ReactDOM.render(<Router />, document.getElementById('root'));
+ReactDOM.render(
+    <BrowserRouter>
+        <Router />
+    </BrowserRouter>
+    , document.getElementById('root'));
