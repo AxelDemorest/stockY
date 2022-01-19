@@ -1,5 +1,5 @@
 /*
-Problèmes de Js 
+
 
 
 let slideIndex = 0;
@@ -19,3 +19,4 @@ function showSlides() {
 }
 
 /*
+ */

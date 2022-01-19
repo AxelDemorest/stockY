@@ -1,11 +1,12 @@
 import React from 'react';
 import "../styles/components/carousel.css"
 import "../js/carousel"
+import Button from "bootstrap/js/src/button";
 
 const Carousel = () => {
     return (
         <div className="carousel">
-            <h1>Carousel</h1>
+            <h1>CarouselVVVV</h1>
 
 
             <div className="sneakers360">
@@ -39,9 +40,12 @@ const Carousel = () => {
 
 
 
+
+
         </div>
 
     );
 };
 
 export default Carousel;
+
