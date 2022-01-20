@@ -2,13 +2,13 @@ import React from 'react';
 import "../styles/components/carousel.css"
 import "../js/carousel"
 
-{/*const Carousel = () => {
+const Carousel = () => {
     return (
         <div className="carousel">
             <div className="container-img">
                 <div className="carousel-img"/>
             </div>
-            <h1>Carousel</h1>
+            {/*<h1>Carousel</h1>
 
 
             <div className="sneakers360">
@@ -38,7 +38,7 @@ import "../js/carousel"
 
                     </div>
                 </div>
-            </div>
+            </div>*/}
 
 
 
@@ -48,4 +48,3 @@ import "../js/carousel"
 };
 
 export default Carousel;
-*/}
