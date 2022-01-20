@@ -41,7 +41,7 @@ const Catalog = () => {
 
 
 
-            
+
             <div className={"carddddd"} >
                 <div className="card cardcatalog" >
 
