@@ -5,7 +5,10 @@ import "../js/carousel"
 const Carousel = () => {
     return (
         <div className="carousel">
-            <h1>Carousel</h1>
+            <div className="container-img">
+                <div className="carousel-img"/>
+            </div>
+            {/*<h1>Carousel</h1>
 
 
             <div className="sneakers360">
@@ -35,7 +38,7 @@ const Carousel = () => {
 
                     </div>
                 </div>
-            </div>
+            </div>*/}
 
 
 

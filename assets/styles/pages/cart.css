@@ -1,0 +1,19 @@
+.cart {
+    background-color: #f4f3f1;
+    padding-top: 30px;
+}
+
+.section-cart {
+    padding: 30px;
+    width: 35%;
+}
+
+.section-left-cart {
+    margin-right: 50px;
+}
+
+.order-price-cart {
+    text-align: end;
+    margin-right: 20px;
+    text-transform: uppercase;
+}

@@ -3,7 +3,6 @@
 
     width: 15%  ;
     margin-left: 1.5% !important;
-    margin-top: 5% !important;
 }
 
 .newsneakers {
@@ -24,4 +23,57 @@
     font-size: 20px !important;
     margin-left: 40% !important;
 
+}
+
+.title-category {
+    margin-left: 3.5%;
+    font-size: 30px;
+    padding: 35px 0 20px 0;
+}
+
+.container-section {
+    height: 40em;
+}
+
+.first-section {
+    margin-top: 100px;
+}
+
+.section-right {
+    background-color: #F1F1F1;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-right div {
+    width: 80%;
+}
+
+.section-right h2 {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.section-right p {
+    font-size: 17px;
+}
+
+.background-img-section {
+    height: 100%;
+    width: 100%;
+}
+
+.background-img-section {
+    height: 100%;
+    width: 100%;
+}
+
+.first-section-img {
+    background: center/cover url("../../img/sneakerSection.png");
+}
+
+.two-section-img {
+    background: center/cover url("../../img/sneaker-section.jpeg");
 }
