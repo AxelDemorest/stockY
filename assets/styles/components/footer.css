@@ -1,0 +1,35 @@
+.footer {
+    margin-top: 30px;
+    height: 20em;
+    background-color: #242424;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.footer .column {
+    margin-right: 20px;
+}
+
+.footer-rights {
+    background-color: #0F0F0F;
+}
+
+.footer-rights p {
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+    font-style: italic;
+    padding: 10px 0;
+    margin: 0;
+    text-align: end;
+    margin-right: 15px;
+}

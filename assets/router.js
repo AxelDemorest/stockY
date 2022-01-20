@@ -4,10 +4,12 @@ import Home from "./pages/Home";
 
 const Router = () => {
     return (
-        <Routes>
-            <Route exact path="/" element={<Home />}/>
-            <Route path="/login" element={<Home />}/>
-        </Routes>
+        <div className="global-container">
+            <Routes>
+                <Route exact path="/" element={<Home />}/>
+                <Route path="/login" element={<Home />}/>
+            </Routes>
+        </div>
     );
 };
 

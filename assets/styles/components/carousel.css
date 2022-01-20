@@ -1,4 +1,4 @@
-
+/*
 .sneakers360{
     display: flex;
     flex-direction: row;
@@ -35,5 +35,9 @@
 
 .fade:not(.show) {
     opacity: 1!important; ;
-}
+}*/
 
+.carousel {
+    height: 500px;
+    background: center/cover url("../../img/dunk-low.jpeg");
+}
