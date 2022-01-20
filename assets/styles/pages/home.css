@@ -12,17 +12,28 @@
     margin-right: 2%;
 }
 
-.card-bodyy {
-    margin-top: -5% !important;
-    background-color: #f4f3f1 ;
+.card-body {
+    padding: 10px 10px 0 10px !important;
 }
 
-.card-link {
+.card-title {
+    font-weight: 500 !important;
+}
+
+.category-card {
+    font-size: 14px;
+}
+
+.card-img-top {
+    width: 90% !important;
+}
+
+.card-bottom-link {
     color: black !important;
     text-decoration: none;
-    font-size: 20px !important;
-    margin-left: 40% !important;
-
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 10px;
 }
 
 .title-category {
