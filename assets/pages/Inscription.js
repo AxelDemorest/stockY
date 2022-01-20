@@ -6,7 +6,11 @@ const Inscription = () => {
         <div>
 
             <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
-                <div className="card card0 border-0">
+                <div className="card card0 border-0 d-flex flex-column align-items-center">
+                    <div className="w-75">
+                        <h2>Espace client</h2>
+                        <hr />
+                    </div>
                     <div className="row d-flex">
                         <div className="col-lg-6">
                             <div className="card1 pb-5">

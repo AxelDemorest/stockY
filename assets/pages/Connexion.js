@@ -7,7 +7,11 @@ const Connexion = () => {
 
 
             <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
-                <div className="card card0 border-0">
+                <div className="card card0 border-0 d-flex flex-column align-items-center">
+                    <div className="w-75">
+                        <h2>Espace client</h2>
+                        <hr />
+                    </div>
                     <div className="row d-flex">
                         <div className="col-lg-6">
                             <div className="card1 pb-5">
@@ -22,10 +26,10 @@ const Connexion = () => {
 
                                 <div className="row px-3"><label className="mb-1">
                                     <h6 className="mb-0 text-sm">Adresse mail</h6>
-                                </label> <input className="mb-4" type="text" name="email" placeholder="Entrer votre adresse mail"/></div>
+                                </label> <input className="mb-4" type="text" name="email" placeholder="Entrez votre adresse mail"/></div>
                                 <div className="row px-3"><label className="mb-1">
                                     <h6 className="mb-0 text-sm">Mot de passe </h6>
-                                </label> <input type="password" name="password" placeholder="Entrer votre mot de passe"/></div>
+                                </label> <input type="password" name="password" placeholder="Entrez votre mot de passe"/></div>
                                 <div className="row px-3 mb-4">
                                     <div className="custom-control custom-checkbox custom-control-inline">
 
