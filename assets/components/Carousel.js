@@ -3,7 +3,6 @@ import "../styles/components/carousel.css"
 import "../js/carousel"
 
 const Carousel = () => {
-
     return (
         <div className="carousel">
             <div className="container-img">
@@ -31,7 +30,7 @@ const Carousel = () => {
 
 
                         <div className="mySlides fade">
-                            <div className="numbered">3</div>
+                            <div className="numbertext">3</div>
                             <img src="https://images.stockx.com/360/Air-Jordan-1-Retro-High-OG-Bred-Patent/Images/Air-Jordan-1-Retro-High-OG-Bred-Patent/Lv2/img03.jpg?auto=compress&w=480&q=90&dpr=2&updated_at=1633542046&h=320&fm=webp"/>
                             <div className="text">????</div>
                         </div>
@@ -39,7 +38,7 @@ const Carousel = () => {
 
                     </div>
                 </div>
-            </div>*/}
+            </div>
 
 
 
