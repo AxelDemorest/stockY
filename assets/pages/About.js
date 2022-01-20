@@ -10,8 +10,10 @@ const About = () => {
 
                     <img className={"imgabout"} src="https://stockx.com/about/wp-content/uploads/2021/04/verified-authentic2021-400x230.png" />
                     <div className="card-body">
-                        <p className="card-title">100% Verified Authentic </p>
-                        <p className="card-textabout">Every item sold goes through our proprietary multi-step verification process with our team of expert authenticators.  </p>
+                        <p className="card-title-about">100% Vérifié Authentique </p>
+                        <p className="card-textabout">Chaque article vendu passe par notre processus exclusif de vérification en plusieurs étapes avec notre équipe d'experts authentificateurs.
+
+                        </p>
 
                     </div>
                 </div>
@@ -21,8 +23,8 @@ const About = () => {
 
                     <img className={"imgabout2"} src="https://stockx.com/about/wp-content/uploads/2021/04/transparent-pricing2021.png" />
                     <div className="card-body">
-                        <p className="card-title">Transparent Pricing </p>
-                        <p className="card-textabout">Our real-time marketplace works just like the stock market –  allowing you to buy and sell the most coveted items at their true market price.  </p>
+                        <p className="card-title-about">Tarification transparente </p>
+                        <p className="card-textabout">Notre marché en temps réel fonctionne exactement comme le marché boursier - vous permettant d'acheter et de vendre les articles les plus convoités à leur véritable prix du marché.  </p>
 
 
                     </div>
@@ -33,13 +35,20 @@ const About = () => {
 
                     <img className={"imgabout3"} src="https://stockx.com/about/wp-content/uploads/2021/04/global-access2021.png" />
                     <div className="card-body">
-                        <p className="card-title">Global Access </p>
-                        <p className="card-textabout">Whether it’s pre-release, regionally limited, or “sold out” – our millions of customers from over 200+ countries allow you to easily secure those hard-to-find, coveted items.  </p>
+                        <p className="card-title-about">Accès mondial </p>
+                        <p className="card-textabout">Qu'il s'agisse d'une pré-sortie, d'une limitation régionale ou d'une « rupture de stock », nos millions de clients dans plus de 200 pays vous permettent de sécuriser facilement ces articles convoités et difficiles à trouver.  </p>
 
 
                     </div>
                 </div>
             </div>
+
+
+
+
+
+
+
 
 
 
