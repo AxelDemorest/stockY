@@ -17,12 +17,12 @@ const Connexion = () => {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="card2 card border-0 px-4 py-5">
+                            <div className="card22 card border-0 px-4 py-5">
 
 
                                 <div className="row px-3"><label className="mb-1">
-                                    <h6 className="mb-0 text-sm">Identifiant</h6>
-                                </label> <input className="mb-4" type="text" name="email" placeholder="Entrer votre identifiant"/></div>
+                                    <h6 className="mb-0 text-sm">Adresse mail</h6>
+                                </label> <input className="mb-4" type="text" name="email" placeholder="Entrer votre adresse mail"/></div>
                                 <div className="row px-3"><label className="mb-1">
                                     <h6 className="mb-0 text-sm">Mot de passe </h6>
                                 </label> <input type="password" name="password" placeholder="Entrer votre mot de passe"/></div>
@@ -34,7 +34,7 @@ const Connexion = () => {
                                 <div className="row mb-3 px-3">
                                     <button type="submit" className="btn btn-blue text-center">Connexion</button>
                                 </div>
-                                <div className="row mb-4 px-3"><small className="font-weight-bold">Vous n'avez pas de compte ?  <a href={"Inscription.js"} className="text-danger ">S'inscrire</a></small></div>
+                                <div className="row mb-4 px-3"><small className="font-weight-bold">Vous n'avez pas de compte ?  <a href={"Inscription"} className="text-danger ">S'inscrire</a></small></div>
                             </div>
                         </div>
                     </div>
