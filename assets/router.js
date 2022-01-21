@@ -1,9 +1,9 @@
 import React from 'react';
 import {Route, Routes} from "react-router-dom";
 import Home from "./pages/Home";
-import Catalog from "./pages/Catalog";
-import Cart from "./pages/Cart";
 import Products from "./pages/Products";
+import Cart from "./pages/Cart";
+import SingleProduct from "./pages/SingleProduct";
 import Connexion from "./pages/Connexion";
 import Inscription from "./pages/Inscription";
 import About from "./pages/About";
@@ -13,8 +13,8 @@ const Router = () => {
         <Routes>
             <Route exact path="/" element={<Home />}/>
             <Route path="/login" element={<Home />}/>
-            <Route path="/catalogue" element={<Catalog />}/>
-            <Route path="/products" element={<Products />}/>
+            <Route exact path="/products" element={<Products />}/>
+            <Route exact path="/products/:id" element={<SingleProduct />}/>
             <Route path="/connexion" element={<Connexion />}/>
             <Route path="/inscription" element={<Inscription />}/>
             <Route path="/cart" element={<Cart />}/>

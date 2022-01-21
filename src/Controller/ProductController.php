@@ -25,4 +25,13 @@ class ProductController extends AbstractController
         $data = $doctrine->getRepository(Product::class)->findBy(array(), $orderBy, $limit);
         return new Response($serializer->serialize($data, JsonEncoder::FORMAT));
     }
+
+    /**
+     * @Route("/api/single-product/{id}", name="singleProduct")
+     */
+    public function getSingleProduct(SerializerInterface $serializer, ManagerRegistry $doctrine, Request $request, int $id): Response
+    {
+        $data = $doctrine->getRepository(Product::class)->find($id);
+        return new Response($serializer->serialize($data, JsonEncoder::FORMAT));
+    }
 }
