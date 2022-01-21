@@ -15,7 +15,7 @@ const Home = () => {
                 setProductsSelection(response.data)
             })
 
-        axios.get('/api/products?orderBy=id')
+        axios.get('/api/products/6?orderBy=id')
             .then(function (response) {
                 setProductsLastRelease(response.data)
             })
@@ -25,16 +25,16 @@ const Home = () => {
         <div className="home">
             <Carousel />
             <h2 className="title-category">Notre sélection</h2>
-            <div className="newsneakers" >
+            <div className="newsneakers">
                 {productsSelection.map((product) => (
-                    <Card product={product} />
+                    <Card product={product} key={product.name} />
                 ))}
             </div>
 
             <h2 className="title-category">Les dernières sorties</h2>
-            <div className="newsneakers" >
+            <div className="newsneakers">
                 {productsLastRelease.map((product) => (
-                    <Card product={product} />
+                    <Card product={product} key={product.name} />
                 ))}
             </div>
 
