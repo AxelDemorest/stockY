@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const Card = ({ product }) => {
 
@@ -16,7 +17,7 @@ const Card = ({ product }) => {
                 <h5>€{product.price}</h5>
                 <div className="d-flex justify-content-around w-100 pb-3">
                     <button type="button" className="ncss-btn-primary-dark ncss-btn-primary-dark ">Ajouter au panier</button>
-                    <button type="button" className="ncss-btn-primary-dark ncss-btn-primary-dark ">Voir l'article</button>
+                    <Link to={`/products/${product.id}`}><button type="button" className="ncss-btn-primary-dark ncss-btn-primary-dark ">Voir le produit</button></Link>
                 </div>
             </div>
         </div>
