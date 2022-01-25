@@ -7,6 +7,7 @@ import SingleProduct from "./pages/SingleProduct";
 import Connexion from "./pages/Connexion";
 import Inscription from "./pages/Inscription";
 import About from "./pages/About";
+import Account from "./pages/Account"
 
 const Router = () => {
     return (
@@ -19,6 +20,8 @@ const Router = () => {
             <Route path="/inscription" element={<Inscription />}/>
             <Route path="/cart" element={<Cart />}/>
             <Route path="/about" element={<About />}/>
+            <Route path="/account" element={<Account />}/>
+
         </Routes>
     );
 };
