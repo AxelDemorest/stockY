@@ -31,6 +31,7 @@ class Product
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
+    #[Groups(['product:collection:read'])]
     private $id;
 
     /**

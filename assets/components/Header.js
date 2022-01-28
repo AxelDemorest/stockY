@@ -16,7 +16,7 @@ const Header = () => {
                             <li><Link to="products">Catalogue</Link></li>
                             <li><Link to="about">À propos</Link></li>
                             <li><Link to="cart">Panier</Link></li>
-                            <li>Mon compte</li>
+                            <li><Link to="account">Mon compte</Link></li>
                         </ul>
                     </div>
                 </div>

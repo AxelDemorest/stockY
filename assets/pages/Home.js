@@ -3,6 +3,7 @@ import "../styles/pages/home.css";
 import Carousel from "../components/Carousel";
 import Card from "../components/home/Card";
 import axios from "axios";
+import jwt_decode from "jwt-decode";
 
 const Home = () => {
 
@@ -20,6 +21,11 @@ const Home = () => {
                 setProductsLastRelease(response.data)
             })
     }, [])
+
+    let token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NDMyODkzMTQsImV4cCI6MTY0MzI5MjkxNCwicm9sZXMiOlsiUk9MRV9VU0VSIl0sInVzZXJuYW1lIjoiYXhlbC5kZW1vcmVzdEBnbWFpbC5jb20ifQ.ds9cm3VagDtdvpltA-Brzehc93UsAubII2To-6SBCyoIaOI9Uhn7Mww_ghwurZHg6WxlXKQeHks6FBY2moOnhhofbp_I8EHyOVt-QutEycOGNFen6HGl2Dg3lPEhz3k3OhoOiP6g8ZiEIcWbwKte8IpjGxbd7Whfeq33VjLsnwNsOCW83sfgzR50FJjOxcqx4lLYe3LmBM0j0Jzm1ilA9X64mEKJqWyTSq-2YzzluQci8_YFi960DN5UqYqyIKI09vd3S4magdKJEXyK16SE1_caFzBzp-MXkslhvbHCPyGpz9OYQLDIBvJyaAcXxC5EBb45HsHOVBxH6GsshYnOgs6ribahgiVeY9xP7NAvjyGGvgLImBRzmg6edfwIWzojvfd4YTtpJaY2LKfM7XaqCU0QLMlIgXJ6a-hheEMYOB9nxSJ20YaL7wR7pVnhumrD74SyNPwj1b8e4guSEeHTZGth5n2dGbRCo083EEKS8PsXZ_J9vb1I7Er9ciIyBp9gReDWaqlelk5r9sUXJrjIjRb9v15FxgcsooWSxz4EeoHr0s5v2KghfFbJZvAB9lXvpGJ2863J9LUgeKL1pFErPuhohRu46Rxicb59wYOwU8lHAxcsNyIis8uXMYooFpc8ToR8J1_w-15O2CvvdKI2yFP2XRaGCYOErbQRVxxW-TM";
+    let decoded = jwt_decode(token);
+
+    console.log(decoded);
 
     return (
         <div className="home">
